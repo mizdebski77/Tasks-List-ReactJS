@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/tasks-list-react/static/js/main.7c8ab067.js",
+    "static/js/787.2803b383.chunk.js": "/tasks-list-react/static/js/787.2803b383.chunk.js",
+    "index.html": "/tasks-list-react/index.html",
+    "main.7c8ab067.js.map": "/tasks-list-react/static/js/main.7c8ab067.js.map",
+    "787.2803b383.chunk.js.map": "/tasks-list-react/static/js/787.2803b383.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7c8ab067.js"
+  ]
+}
