@@ -1,4 +1,6 @@
+import { useSelector } from "react-redux";
 import { useHistory, useLocation } from "react-router-dom"
+import { selectIsListEmpty } from "../tasksSlice";
 import { Input, Wrapper } from "./styledSearch"
 
 export const Search = () => {
@@ -6,13 +8,14 @@ export const Search = () => {
     const location = useLocation();
     const history = useHistory();
     const query = (new URLSearchParams(location.search)).get("search");
-   
-    const onInputChange = ({target}) => {
+    const isListEmpty = useSelector(selectIsListEmpty);
+
+    const onInputChange = ({ target }) => {
         const searchParams = new URLSearchParams(location.search);
 
-        if(target.value.trim() === "") {
+        if (target.value.trim() === "") {
             searchParams.delete("search");
-        }else {
+        } else {
             searchParams.set("search", target.value);
         }
         history.push(`${location.pathname}?${searchParams.toString()}`);
@@ -20,10 +23,9 @@ export const Search = () => {
 
     return (
         <Wrapper>
-            <Input placeholder="Filter Tasks" 
-            value={query || ""}
-            onChange = {onInputChange}
-            />
+            <Input disabled = {!isListEmpty}  placeholder="Filter Tasks"
+                value={query || ""}
+                onChange={onInputChange} />
         </Wrapper>
     )
 }

@@ -12,5 +12,12 @@ export const Input = styled.input`
     border: none;
     font-weight: 600;
     width:100%;
+    transition: 1s;
+
+    &:disabled {
+        transition: 1s;
+        background: transparent;
+        border: 1px solid white;
+    }
 
 `;
