@@ -16,4 +16,10 @@ export const DownloadBtn = styled.button`
     &:active {
         color: ${({ theme }) => theme.color.laRioja};
     }
+
+    &:disabled {
+     transform: none;
+    color: #bbb;
+    cursor: default;
+  }
 `;

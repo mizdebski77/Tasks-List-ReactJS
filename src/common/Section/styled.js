@@ -15,6 +15,7 @@ export const Header = styled.h2`
 
 
 export const Buttons = styled.div`
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr auto;
     border-bottom: 1px solid white;

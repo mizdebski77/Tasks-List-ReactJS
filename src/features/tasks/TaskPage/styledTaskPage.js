@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
-export const Paragraph = styled.p`
+
+export const DoneInfo = styled.div`
 padding: 20px;
 `;
 
@@ -18,6 +19,7 @@ export const BackLink = styled(NavLink)`
     text-decoration: none;
     transition: .5s;
 
+
     &:hover {
         color:rgb(184, 119, 0) ;
 
@@ -25,7 +27,11 @@ export const BackLink = styled(NavLink)`
 `;
 
 
-export const HeaderContainer= styled.div`
+export const HeaderContainer = styled.div`
 display: flex;
 justify-content: space-between;
 `;
+
+export const Answer = styled.text`
+color: orange;
+`

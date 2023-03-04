@@ -10,8 +10,8 @@ export const Search = () => {
     const onInputChange = ({target}) => {
         const searchParams = new URLSearchParams(location.search);
 
-        if(target.value.trim === "") {
-            searchParams.delete("search")
+        if(target.value.trim() === "") {
+            searchParams.delete("search");
         }else {
             searchParams.set("search", target.value);
         }
