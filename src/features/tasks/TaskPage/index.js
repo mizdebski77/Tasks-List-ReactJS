@@ -4,7 +4,7 @@ import { Container } from "../../../common/Container/container";
 import { Header } from "../../../common/Header/header";
 import { Section } from "../../../common/Section/section"
 import { getTaskById } from '../tasksSlice';
-import { Answer, BackLink, DoneInfo, DoneInformation, } from "./styledTaskPage";
+import { Answer, BackLink, DoneInfo,   } from "./styledTaskPage";
 
 
 function TaskPage() {
