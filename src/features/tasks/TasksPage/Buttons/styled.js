@@ -8,8 +8,8 @@ flex-wrap: wrap;
 
 export const ButtonsContainer = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
     padding: 10px;
 
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){

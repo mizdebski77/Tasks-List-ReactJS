@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { toggleHideDone, setAllDone, selectTasksState } from "../../tasksSlice";
 
 export const Buttons = () => {
-  const { tasks, hideDone } = useSelector(selectTasksState);
+  const { tasks, hideDone, done } = useSelector(selectTasksState);
   const dispatch = useDispatch();
 
 
@@ -16,11 +16,11 @@ export const Buttons = () => {
             {hideDone ? "Show" : "Hide"} Done
           </Button>
           <Button
-            onClick={() => dispatch(setAllDone())}
-            disabled={tasks.every(({ done }) => done)}>
-            Done All
+            onClick={() => dispatch(setAllDone())}>
+              {done ? " Done All" : "Not Done"}
+           
           </Button>
-        </>
-      </ButtonsContainer>
+      </>
+      </ButtonsContainer >
     );
 };
