@@ -12,7 +12,8 @@ export const Buttons = () => {
 
   const openAlert = () => {
     AlertConfirm({
-      title: "Are you siur?",
+      title: "Are you sure?",
+      desc: "You will delete all tasks",
       onOk: () => dispatch(removeAllTasks())
     })
   }
