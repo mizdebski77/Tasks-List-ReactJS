@@ -2,7 +2,7 @@
   "name": "tasks-list-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mizdebski77.github.io/tasks-list-react/",
+  "homepage": "https://mizdebski77.github.io/Tasks-List-ReactJS/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/jest-dom": "^5.16.5",
