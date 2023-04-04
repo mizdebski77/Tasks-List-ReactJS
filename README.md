@@ -6,9 +6,9 @@
 - [Description](#description)
 - [Technologies](#technologies)
 
-## 🎮Demo
+## Demo
 
-You can find a demo version [here](https://mizdebski77.github.io/tasks-list-react/).
+You can find a demo version [here](https://mizdebski77.github.io/Tasks-List-ReactJS/).
 
 ## 📖Description
 
@@ -18,15 +18,15 @@ I would like to invite you to take a look at my **"To do list"** application.
 
 At the top of application you can see a navigation toolbar which can take you to tasks page or to an author page.
 
-**1️⃣ `Tasks adding block`**
+**1️ `Tasks adding block`**
 
 In this block you can add as many tasks as you want or download example tasks by clicking "Get example tasks" button. Tasks will be listed below - in the "Tasks list block". 🖊️
 
-**2️⃣ `Search bar block`**
+**2️ `Search bar block`**
 
 This specific block enables you to filter tasks. 🔍
 
-**3️⃣ `Tasks list block`**
+**3️ `Tasks list block`**
 
 Within this block all the tasks are generated. You can go to the subpage of each task by clicking on its content. 🗒️
 
