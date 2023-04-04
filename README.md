@@ -4,8 +4,6 @@
 
 - [Demo](#demo)
 - [Description](#description)
-- [Preview](#preview)
-- [Available Scripts](#available-scripts)
 - [Technologies](#technologies)
 
 ## 🎮Demo
