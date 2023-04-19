@@ -8,7 +8,7 @@
 - [Preview](#preview)
 - [Technologies](#technologies)
 
-## 🤖Technologies
+## Technologies
 =======
 ## Table of content
 
@@ -20,7 +20,7 @@
 
 You can find a demo version [here](https://mizdebski77.github.io/Tasks-List-ReactJS/).
 
-## 📖Description
+## Description
 
 I would like to invite you to take a look at my **"To do list"** application.
 
@@ -30,20 +30,20 @@ At the top of application you can see a navigation toolbar which can take you to
 
 **1️ `Tasks adding block`**
 
-In this block you can add as many tasks as you want or download example tasks by clicking "Get example tasks" button. Tasks will be listed below - in the "Tasks list block". 🖊️
+In this block you can add as many tasks as you want or download example tasks by clicking "Get example tasks" button. Tasks will be listed below - in the "Tasks list block". 
 
 **2️ `Search bar block`**
 
-This specific block enables you to filter tasks. 🔍
+This specific block enables you to filter tasks. 
 
 **3️ `Tasks list block`**
 
-Within this block all the tasks are generated. You can go to the subpage of each task by clicking on its content. 🗒️
+Within this block all the tasks are generated. You can go to the subpage of each task by clicking on its content. 
 
 There are two types of buttons next to each task:
 
-- green button allows you to mark the task as completed or not ✅
-- red button with trash icon is used to remove specific task from the board 🗑️.
+- green button allows you to mark the task as completed or not 
+- red button with trash icon is used to remove specific task from the board.
 
 Moreover, when you type tasks in the list, two additional functionalities appear - you can either hide completed tasks, complete all the tasks listed below or delete all tasks.
 
