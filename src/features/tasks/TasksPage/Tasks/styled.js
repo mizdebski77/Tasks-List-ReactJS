@@ -5,6 +5,10 @@ export const List = styled.ul`
     list-style: none;
     margin: 0;
     padding: 20px;
+
+    @media (max-width: ${({theme}) => theme.breakPoint.mobileMax}px){
+        padding: 10px;
+    }
 `
 
 export const Item = styled.li`
@@ -18,6 +22,10 @@ export const Item = styled.li`
     ${({ hidden }) => hidden && css`
     display:none;
     `};
+
+    @media (max-width: ${({theme}) => theme.breakPoint.mobileMax}px){
+        padding: 10px;
+    }
 `;
 
 

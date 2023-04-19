@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
 padding: 20px;
 grid-gap: 20px;
+
+@media (max-width:${({theme}) => theme.breakPoint.mobileMax}px){
+    padding: 10px;
+}
 `;
 
 export const Input = styled.input`

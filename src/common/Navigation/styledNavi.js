@@ -14,12 +14,16 @@ align-items: center;
 
 export const Links = styled.li`
 font-family: monospace;
-font-size: 25px;
+font-size: 24px;
 border: none;
 list-style: none;
 margin: 20px;
 &:hover {
 cursor: pointer;
+}
+
+@media (max-width: ${({theme}) => theme.breakPoint.mobileMax}px){
+    font-size: 20px;
 }
 `;
 const activeClassName = "active";

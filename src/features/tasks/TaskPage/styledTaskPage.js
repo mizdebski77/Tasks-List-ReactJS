@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 export const DoneInfo = styled.div`
 padding: 20px;
+display: flex;
+gap: 12px;
 `;
 
 export const BackLink = styled(NavLink)`
@@ -18,11 +20,12 @@ export const BackLink = styled(NavLink)`
     font-weight: normal;
     text-decoration: none;
     transition: .5s;
+    justify-content: center;
 
 
     &:hover {
         color:rgb(184, 119, 0) ;
-
+            
     }
 `;
 
@@ -32,6 +35,6 @@ display: flex;
 justify-content: space-between;
 `;
 
-export const Answer = styled.text`
+export const Answer = styled.div`
 color: orange;
 `

@@ -22,4 +22,9 @@ export const DownloadBtn = styled.button`
     color: #bbb;
     cursor: default;
   }
+
+  
+  @media(max-width: ${({theme}) => theme.breakPoint.mobileMax}px){
+      padding: 10px;
+    }
 `;

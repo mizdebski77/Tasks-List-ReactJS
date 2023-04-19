@@ -7,8 +7,7 @@ export const Container = styled.form`
     grid-gap: 20px;
 
     @media (max-width:767px) {
-    
-        padding: 20px;
+        padding: 10px;
         display: grid;
         grid-template-columns: auto;
         grid-gap: 10px;
@@ -35,10 +34,19 @@ export const Button = styled.button`
     cursor: pointer;
     background: ${({ theme }) => theme.color.galliano};
     transform:  scale(1.1);
+
+    @media(max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
+        transform: none;
+        background: ${({ theme }) => theme.color.darkOrange};
+    }
     }
 
     &:active {
     background: ${({ theme }) => theme.color.laRioja};
     }
+
+    
+
+    
 `;
 

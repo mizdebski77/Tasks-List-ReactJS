@@ -3,6 +3,11 @@ import styled from "styled-components";
 
 export const Paragraph = styled.p`
 padding: 20px;
+margin: 0;
+
+@media (max-width: ${({theme}) => theme.breakPoint.mobileMax}px){
+        padding: 12px;
+    }
 `;
 
 export const BackLink = styled(NavLink)`
@@ -21,6 +26,10 @@ export const BackLink = styled(NavLink)`
     &:hover {
         color:rgb(184, 119, 0) ;
 
+    }
+
+    @media (max-width: ${({theme}) => theme.breakPoint.mobileMax}px){
+        justify-content: center;
     }
 `;
 

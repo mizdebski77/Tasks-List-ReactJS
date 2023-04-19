@@ -15,7 +15,7 @@ export const ButtonsContainer = styled.div`
     @media (max-width: ${({ theme }) => theme.breakPoint.mobileMax}px){
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 20px;
+        grid-gap: 12px;
   }
 `;
 
