@@ -7,8 +7,7 @@
 - [Preview](#preview)
 - [Technologies](#technologies)
 
-## Technologies
-=======
+
 ## Table of content
 
 - [Demo](#demo)
