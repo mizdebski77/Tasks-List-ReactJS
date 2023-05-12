@@ -1,6 +1,5 @@
 # To do list ✔️
 
-<<<<<<< HEAD
 # Table of content
 
 - [Demo](#demo)
