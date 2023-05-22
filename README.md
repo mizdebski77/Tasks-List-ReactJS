@@ -40,7 +40,6 @@ Moreover, when you type tasks in the list, two additional functionalities appear
 
 ## Technologies
 
->>>>>>> 01dc412ba2e0160e87d3417ed64b003123366a48
 - HTML
 - CSS (Flex, Grid, media queries)
 - JavaScript (ES6+ features)
@@ -55,7 +54,3 @@ Moreover, when you type tasks in the list, two additional functionalities appear
 - Promises, async/await
 - Local storage
 - Markdown
-<<<<<<< HEAD
-
-=======
->>>>>>> 01dc412ba2e0160e87d3417ed64b003123366a48
