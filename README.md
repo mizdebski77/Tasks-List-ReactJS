@@ -1,13 +1,5 @@
 # To do list ✔️
 
-# Table of content
-
-- [Demo](#demo)
-- [Description](#description)
-- [Preview](#preview)
-- [Technologies](#technologies)
-
-
 ## Table of content
 
 - [Demo](#demo)
